@@ -1,0 +1,38 @@
+
+<div class="">
+
+                <form id="inst" action="." method="post">
+                    {% csrf_token %}
+ <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Add beverage</label>
+    
+                            <div class="col-sm-10">
+                                <input type="text" placeholder=" " class="form-control"
+                                    name="beverage_title" formControlName="titleOfTheAbstraction">
+                            </div>
+                        </div>
+ <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">description</label>
+    
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="description " class="form-control"
+                                    name="beverage_description" formControlName="titleOfTheAbstraction">
+                            </div>
+                        </div>
+
+
+ <div class="col-sm-10 col-sm-offset-2 text-center">
+                                                     <button type="submit" class="btn btn-primary"><strong>Submit</strong>
+
+                            </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                                          
+                                      
+                                        <button type="Cancel" class="btn btn-primary"><strong>Cancel</strong>
+
+                            </button>
+
+                        </div>
+
+</form>
+</div>
